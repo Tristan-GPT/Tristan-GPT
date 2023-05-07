@@ -28,5 +28,3 @@
 + MongoDB
 + Pygame
 + Tkinter
-+ Angular
-
