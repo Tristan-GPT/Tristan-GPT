@@ -11,4 +11,4 @@
 
 # My favourites languages:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+<img src="https://iconscout.com/icon/javascript-1">
