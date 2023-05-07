@@ -28,3 +28,12 @@
 + MongoDB
 + Pygame
 + Tkinter
+
+# My skills
+
++ Hardware
++ Development
++ Software
++ Operating System ( Linux (Ubuntu & other Ubuntu license, Debian & Fedora ), Windows 7, 8, 10 & 11 )
++ System and Network
++ Server
