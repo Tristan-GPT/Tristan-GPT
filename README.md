@@ -11,4 +11,22 @@
 
 # My favourites languages:
 
-<img src="https://iconscout.com/icon/javascript-1">
++ Javascript
++ HTML/CSS
++ PHP
++ Typescript
++ Python
+
+# My favourites modules & frameworks:
+
++ Express
++ Axios
++ Discord.js
++ Bulma
++ NodeJS
++ MySQL
++ MongoDB
++ Pygame
++ Tkinter
++ Angular
+
