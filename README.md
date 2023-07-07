@@ -1,6 +1,6 @@
 # Tristan
 
-<img src="https://discord.c99.nl/widget/theme-4/771317042653167627.png">
+<img src="https://discord.c99.nl/widget/theme-1/729435070128980018.png">
 <img src="https://img.shields.io/badge/hello-world!-brightgreen"> <img src="https://img.shields.io/badge/OS-Kubuntu-red">
 
 
