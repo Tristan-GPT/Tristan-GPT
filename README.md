@@ -13,10 +13,7 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 
 <h1 align="center">⚙️ | My favourites languages</h1>
 
-+ Javascript
-+ HTML/CSS
-+ Typescript
-+ Python
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tristan-GPT">
 
 <h1 align="center">🧰 | My favourites modules & frameworks</h1>
 
