@@ -41,4 +41,6 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 + **Discord: @juste_tristan**
 + **Mail: tristangpt.pro@gmail.com**
 
-<img src="https://discord.c99.nl/widget/theme-1/729435070128980018.png" align="center">
+<div style="text-align: center;">
+  <img src="https://discord.c99.nl/widget/theme-1/729435070128980018.png">
+</div>
