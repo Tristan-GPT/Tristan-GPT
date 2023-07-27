@@ -1,14 +1,14 @@
 # Tristan
 
 <img src="https://discord.c99.nl/widget/theme-1/729435070128980018.png">
-<img src="https://img.shields.io/badge/hello-world!-brightgreen"> <img src="https://img.shields.io/badge/OS-Kubuntu-red">
-
 
 # My actual projects:
 
-+ The Last Day: Rise of Zombies: In development ( Soon )
-+ Jaya: This is a Discord Bot: In development ( Soon )
-+ NSession: This is a web session system ( V1.0.0 Soon )
+| Project | Status | Technology |
+|----------|----------|----------|
+| Jaya  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green">  |
+| Node-generation  | **Finished**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
+| **F.I**  | **Soon**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
 
 # My favourites languages:
 
