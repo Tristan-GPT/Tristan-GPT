@@ -13,7 +13,10 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 
 <h1 align="center">⚙️ | My favourites languages</h1>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tristan-GPT">
+<div style="display: flex; justify-content: center;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tristan-GPT&theme=radical">
+  <img src="https://github-readme-stats.vercel.app/api?username=Tristan-GPT&show_icons=true&theme=radical">
+</div>
 
 <h1 align="center">🧰 | My favourites modules & frameworks</h1>
 
