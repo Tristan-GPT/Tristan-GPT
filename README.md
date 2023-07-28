@@ -8,7 +8,7 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 | Project | Status | Technology |
 |----------|----------|----------|
 | Jaya  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green">  |
-| Node-generation  | **Finished**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
+| [Node-generation](https://github.com/Tristan-GPT/node-generation)  | **Finished**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
 | **F.I**  | **Soon**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
 
 <h1 align="center">⚙️ | My favourites languages</h1>
