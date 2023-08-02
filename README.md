@@ -1,5 +1,5 @@
-<a href="https://www.discord.com/users/729435070128980018"></a>
-
+<a href="https://discord.com/users/729435070128980018" target="_blank"> 
+         <img width="50%" align="right" alt="Discord Status" src="https://lanyard.cnrad.dev/api/729435070128980018?bg=1f1f1f&borderRadius=5px">
  <h1 align="center">🪪 | About me</h1>
  
 I am a French developer and full-stack for 3 years. I am mainly specialized in the back-end.
