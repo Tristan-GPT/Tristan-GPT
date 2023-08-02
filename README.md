@@ -1,3 +1,5 @@
+<img src="https://www.discord.com/users/729435070128980018">
+
  <h1 align="center">🪪 | About me</h1>
  
 I am a French developer and full-stack for 3 years. I am mainly specialized in the back-end.
