@@ -1,4 +1,4 @@
-<img src="https://www.discord.com/users/729435070128980018">
+<a href="https://www.discord.com/users/729435070128980018"></a>
 
  <h1 align="center">🪪 | About me</h1>
  
