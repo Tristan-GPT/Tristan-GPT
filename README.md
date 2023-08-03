@@ -1,5 +1,5 @@
 <a href="https://discord.com/users/729435070128980018" target="_blank"> 
-         <img width="50%" align="right" alt="Discord Status" src="https://lanyard.cnrad.dev/api/729435070128980018?bg=1f1f1f&borderRadius=5px">
+         <img width="50%" align="center" alt="Discord Status" src="https://lanyard.cnrad.dev/api/729435070128980018?bg=1f1f1f&borderRadius=5px">
 
 
  <h1 align="center">🪪 | About me</h1>
