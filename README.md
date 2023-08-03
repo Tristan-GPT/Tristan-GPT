@@ -1,7 +1,3 @@
-<a href="https://discord.com/users/729435070128980018" target="_blank"> 
-         <img width="50%" align="center" alt="Discord Status" src="https://lanyard.cnrad.dev/api/729435070128980018?bg=1f1f1f&borderRadius=5px">
-
-
  <h1 align="center">🪪 | About me</h1>
  
 I am a French developer and full-stack for 3 years. I am mainly specialized in the back-end.
@@ -42,6 +38,7 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 + System and Network
 + Server
 
+
 <h1 align="center">📱 | How to contact me</h1>
 
 + **Discord: @juste_tristan**
@@ -49,4 +46,8 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 
 <div style="text-align: center;">
   <img src="https://discord.c99.nl/widget/theme-1/729435070128980018.png">
+  <a href="https://discord.com/users/729435070128980018" target="_blank"> 
+  <img width="50%" align="center" alt="Discord Status" src="https://lanyard.cnrad.dev/api/729435070128980018?bg=1f1f1f&borderRadius=5px">
 </div>
+
+
