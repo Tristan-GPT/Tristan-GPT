@@ -9,10 +9,11 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 
 | Project | Status | Technology |
 |----------|----------|----------|
-| Jaya  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green">  |
-| [Node-generation](https://github.com/Tristan-GPT/node-generation)  | **Finished**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
+| Jaya  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.17.0-green">  |
+| [Node-generation](https://github.com/Tristan-GPT/node-generation)  | **Finished**  | <img src="https://img.shields.io/badge/Node.js-v18.17.0-green"> |
 | **F.I**  | **Soon**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
-| **NSession**  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> <img src="https://img.shields.io/badge/Python-v3.11.4-blue"> |
+| **NSession**  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.17.0-green"> <img src="https://img.shields.io/badge/Python-v3.11.4-blue"> |
+| **All For One**  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.17.0-green"> |
 
 <h1 align="center">⚙️ | My favourites languages</h1>
 
