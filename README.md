@@ -9,10 +9,11 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
 
 | Project | Status | Technology |
 |----------|----------|----------|
-| [Node-generation](https://github.com/Tristan-GPT/node-generation)  | **Finished**  | <img src="https://img.shields.io/badge/Node.js-v18.17.0-green"> |
-| **F.I**  | **Soon**  | <img src="https://img.shields.io/badge/Node.js-v18.16.1-green"> |
-| **NSession**  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.17.0-green"> <img src="https://img.shields.io/badge/Python-v3.11.4-blue"> |
-| **All For One**  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.17.0-green"> |
+| [Node-generation](https://github.com/Tristan-GPT/node-generation)  | **Finished**  | <img src="https://img.shields.io/badge/Node.js-v18.18.0-green"> |
+| **F.I**  | **Soon**  | <img src="https://img.shields.io/badge/Node.js-v18.18.0-green"> |
+| **NSession**  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.18.0-green"> <img src="https://img.shields.io/badge/Python-v3.11.4-blue"> |
+| **All For One**  | **In development**  | <img src="https://img.shields.io/badge/Node.js-v18.18.0-green"> |
+| **Kairo** | **In development ( priority )** | <img src="https://img.shields.io/badge/Node.js-v18.18.0-green"> |
 
 <h1 align="center">⚙️ | My favourites languages</h1>
 
@@ -49,5 +50,9 @@ My debut actually comes from 2020. My dad had just gotten a laptop and I was ver
   <a href="https://discord.com/users/729435070128980018" target="_blank"> 
   <img width="50%" align="center" alt="Discord Status" src="https://lanyard.cnrad.dev/api/729435070128980018?bg=1f1f1f&borderRadius=5px">
 </div>
+
+<h1 align="center">📂 | Repositories </h1>
+
+ [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Tristan-GPT&repo=node-generation)](https://github.com/Tristan-GPT/node-generation)
 
 
