@@ -14,11 +14,11 @@
 
 <h1 align="center">🪅 | My Skills</h1>
 
-<h1 align="center"><img src="https://skillicons.dev/icons?i=js,ts,py,linux,discord,vscode,visualstudio,nodejs,stackoverflow,github,git,mysql,mongodb,heroku,express,md&perline=4"></h1>
+<h1 align="center"><img src="https://skillicons.dev/icons?i=js,ts,py,linux,discord,vscode,visualstudio,nodejs,stackoverflow,github,git,mysql,mongodb,heroku,express,md,docker,replit&perline=4"></h1>
 
 <h1 align="center">🎯 | My goals</h1>
 
-<h1 align="center"><img src="https://skillicons.dev/icons?i=html,css,php,nginx,docker,c,cpp,cs,replit,haskell,kotlin,dotnet,cmake,unreal,unity,go,react,lua,symfony,jest,laravel,scala,sass,rust,ruby,postman,neovim,vim,vue,angular,cloudflare,blender,arduino,azure,deno&perline=7"></h1>
+<h1 align="center"><img src="https://skillicons.dev/icons?i=html,css,php,nginx,c,cpp,cs,haskell,kotlin,dotnet,cmake,unreal,unity,go,react,lua,symfony,jest,laravel,scala,sass,rust,ruby,postman,neovim,vim,vue,angular,cloudflare,blender,arduino,azure,deno&perline=7"></h1>
 
 <h1 align="center">📱 | How to contact me</h1>
 
