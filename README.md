@@ -1,7 +1,5 @@
 <h1 align="center">👑 | Tristan-GPT</h1>
 
-<h1 align="center"><a href="https://discord.gg/serenetech"><img src="https://img.shields.io/badge/SereneTech-3867ff"></a></h1>
-
 <h1 align="center">
 <img src="https://img.shields.io/badge/NodeJS: 20.9.0-grey?style=for-the-badge&logo=node.js">
 <img src="https://img.shields.io/badge/Python: 3.12.0-grey?style=for-the-badge&logo=python">
