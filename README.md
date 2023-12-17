@@ -19,8 +19,8 @@
 
 </p>
 
-![Tristan-GPT's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tristan-GPT&show_icons=true&theme=tokyonight)
-![Tristan-GPT's Github Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=Tristan-GPT&theme=tokyonight)
+![Tristan-GPT's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tristan-GPT&show_icons=true&theme=radical)
+![Tristan-GPT's Github Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=Tristan-GPT&theme=radical)
 
 <h1 align="center">🪅 | My Skills</h1>
 
