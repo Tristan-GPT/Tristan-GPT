@@ -12,12 +12,12 @@
   </a>
 </p>
 
-<h1 align="center">
+<p align="center">
 <img src="https://img.shields.io/badge/NodeJS: 20.9.0-grey?style=for-the-badge&logo=node.js">
 <img src="https://img.shields.io/badge/Python: 3.12.0-grey?style=for-the-badge&logo=python">
 <a href="https://www.discord.com/users/729435070128980018"><img src="https://img.shields.io/badge/My Discord-grey?style=for-the-badge&logo=discord"></a>
 
-</h1>
+</p>
 
 ![Tristan-GPT's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tristan-GPT&show_icons=true&theme=tokyonight)
 ![Tristan-GPT's Github Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=Tristan-GPT&theme=tokyonight)
