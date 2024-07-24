@@ -10,7 +10,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prepare": "pnpm dlx husky",
-    "commitmsg": ""
+    "commitmsg": "pnpm dlx --no-install commitlint -E HUSKY_GIT_PARAMS"
   },
   "repository": {
     "url": "https://github.com/Tristan-GPT/Tristan-GPT.git",
