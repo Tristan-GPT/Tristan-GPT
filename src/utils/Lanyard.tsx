@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Status } from "./Status";
-import './Lanyard.css';
 
 // Credit to @iCrawl (https://github.com/iCrawl) modified by me
 
