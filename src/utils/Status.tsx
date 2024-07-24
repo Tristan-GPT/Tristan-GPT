@@ -13,7 +13,7 @@ export function Status({ initialData, className }: { readonly className?: string
 			className={`${className}`}
 		>
 			
-			{isOnline ? <div><img src="/online.png" alt="" /> currently online</div> : <div><img src="/offline.png" alt="" /> currently online</div>}
+			{isOnline ? <div><img src="/online.png" alt="" /> currently online</div> : <div><img src="/offline.png" alt="" /> currently offline</div>}
 		</div>
 	);
 }
