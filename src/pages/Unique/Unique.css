@@ -5,15 +5,17 @@
 
 body {
     background-color: #242424;
+
+}
+
+.container {
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: flex;
-    height: 100vh;
+    height: 75vh;
     margin: 0;
     place-content: center;
 }
-
 
 h1 {
     color: white;
@@ -60,4 +62,60 @@ img.images {
 div.loading {
     color: white;
     font-family: "Jetbrains Mono", sans-serif;
+}
+
+nav {
+    padding: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    margin: 0 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+
+nav ul li:hover {
+    cursor: pointer;
+    color: rgb(128, 41, 179);
+    transition-duration: 0.5s;
+}
+
+a {
+    margin: 0 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    cursor: pointer;
+    color: rgb(128, 41, 179);
+    transition-duration: 0.5s;
+}
+svg {
+    height: 50px;
+    width: 50px;
+    fill: #ffffff
+}
+svg:hover {
+    filter: sepia(1) saturate(1000000%) hue-rotate(200deg);
+    transition-duration: 0.5s;
+}    
+
+img.images:hover {
+    filter: sepia(1) saturate(1000000%) hue-rotate(200deg);
+    transition-duration: 0.5s;
 }

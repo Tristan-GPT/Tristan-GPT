@@ -9,8 +9,10 @@ function NotFound() {
     };
 
     return (
-    <><h1>Error 404: Page Not Found</h1>
-    <button onClick={handleGoHome}>Return to home</button>
+    <><div className='container'>
+        <h1>Error 404: Page Not Found</h1>
+        <button onClick={handleGoHome}>Return to home</button>
+    </div>
     </>
     )
 }
