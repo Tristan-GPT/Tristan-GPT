@@ -1,8 +1,8 @@
-/* Importation des polices */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-/* Styles globaux pour le body */
+
 body {
     background-color: #242424;
     text-align: center;
@@ -14,7 +14,7 @@ body {
     place-content: center;
 }
 
-/* Styles pour les titres h1 */
+
 h1 {
     color: white;
     font-family: "Inter", sans-serif;
@@ -27,12 +27,12 @@ h1.imgs {
     margin-top: 10px;
 }
 
-/* Style pour les spans avec la classe title */
+
 span.title {
     color: rgb(128, 41, 179);
 }
 
-/* Styles pour les images avec la classe images */
+
 img.images {
     color: white;
     width: 50px;
@@ -40,7 +40,7 @@ img.images {
     padding-left: 20px;
 }
 
-/* Styles pour la div avec la classe mt-6 */
+
 .mt-6 {
     display: flex;
     justify-content: center;
@@ -53,10 +53,10 @@ img.images {
 .mt-6 img {
     width: 20px;
     height: 20px;
-    vertical-align: middle; /* Aligne les images au milieu du texte */
+    vertical-align: middle;
 }
 
-/* Styles pour les divs avec la classe loading */
+
 div.loading {
     color: white;
     font-family: "Jetbrains Mono", sans-serif;
