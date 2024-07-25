@@ -2,5 +2,5 @@
     "rewrites": [
         { "source": "/(.*)", "destination": "/" }
     ],
-    "ignore": ["**/discord/**"]
+    "ignore": ["discord/**/*"]
 }
