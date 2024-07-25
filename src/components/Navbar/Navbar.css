@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+nav {
+    padding: 10px;
+    position: relative;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: rgb(128, 41, 179);
+    transition-duration: 0.5s;
+}
+
+a {
+    margin: 0 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    cursor: pointer;
+    color: rgb(128, 41, 179);
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+        border-radius: 5px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+   
+    nav ul li:hover {
+        cursor: pointer;
+        color: rgb(128, 41, 179);
+        transition-duration: 0.5s;
+    }
+
+    nav ul a:hover {
+        cursor: pointer;
+        color: rgb(128, 41, 179);
+        transition-duration: 0.5s;
+    }
+}
