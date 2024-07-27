@@ -44,6 +44,7 @@
 <h1 align="center">📱 | How to contact me</h1>
 
 + **Discord: @juste_tristan**
++ **Instagram: @tristangpt**
 + **Mail: tristangpt.pro@gmail.com**
 
 <h1 align="center">
