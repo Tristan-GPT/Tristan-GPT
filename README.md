@@ -10,7 +10,7 @@
 <a href="https://www.discord.com/users/705425854825496656"><img src="https://img.shields.io/badge/My Discord-grey?style=for-the-badge&logo=discord"></a>
 
 <p align="center">
-  Hi ! I'm Tristan. I'm a french young developer since 4 years and i dev in Javascript, Typescript, HTML/CSS, Python and React. <br> I'm currently learning Java for create Minecraft Plugins & Mods.
+  Hi ! I'm Tristan. I'm a french young developer since 4 years and I dev in Javascript, Typescript, HTML/CSS, Python and React. <br> I'm currently learning Java for create Minecraft Plugins & Mods.
   I'm also a guitar player & a Metallica lover.
 </p>
 
