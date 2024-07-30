@@ -11,7 +11,7 @@
 
 <p align="center">
   Hi ! I'm Tristan. I'm a french young developer since 4 years and I code in Javascript, Typescript, HTML/CSS, Python and React. <br> I'm currently learning Java for create Minecraft Plugins & Mods.
-  I'm also a guitar player & a Metallica lover.
+  I'm also a guitar & bass player & a Metallica lover.
 </p>
 
 <p align="center">
