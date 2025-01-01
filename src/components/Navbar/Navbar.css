@@ -29,6 +29,18 @@ nav ul li {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li.manager {
+    
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    background-color: royalblue;
+    background-size: 10px 10px 10px 10px;
+    border-radius: 5px;
 }
 
 nav ul li:hover {
@@ -45,6 +57,16 @@ a {
     text-decoration: none;
 }
 
+
+a.manager {
+    margin: 0 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
 nav ul a:hover {
     cursor: pointer;
     color: rgb(128, 41, 179);
