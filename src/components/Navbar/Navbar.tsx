@@ -18,7 +18,6 @@ function Navbar({ onMenuToggle }) {
         <li><a href="/projects">Projects</a></li>
         <li><a href="/sponsors">Sponsors</a></li>
         <li><a href="/contact">Contact</a></li>
-        <li className='manager'><a href="https://manager.tristangpt.vercel.app" className='manager'>Log In</a></li>
       </ul>
       <div className="menu-icon" onClick={toggleMenu}>
         <img src={isOpen ? '/navbar-mobile.png' : '/navbar-mobile.png'} alt="Menu Icon" />
