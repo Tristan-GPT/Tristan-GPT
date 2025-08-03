@@ -46,6 +46,7 @@
 + **Discord: @juste_tristan**
 + **Instagram: @tristan.gpt**
 + **Mail: tristangpt.pro@gmail.com**
++ - [Portfolio](https://tristangpt.miralys.xyz)
 
 <h1 align="center">
 <a href="https://discord.com/users/705425854825496656" target="_blank"> 
