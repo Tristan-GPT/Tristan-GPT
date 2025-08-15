@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/NodeJS: 18.20.2-grey?style=for-the-badge&logo=node.js">
+<img src="https://img.shields.io/badge/NodeJS: 24.18.0-grey?style=for-the-badge&logo=node.js">
 <img src="https://img.shields.io/badge/Python: 3.12.3-grey?style=for-the-badge&logo=python">
 <a href="https://www.discord.com/users/705425854825496656"><img src="https://img.shields.io/badge/My Discord-grey?style=for-the-badge&logo=discord"></a>
 
