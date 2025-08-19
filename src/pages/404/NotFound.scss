@@ -1,0 +1,52 @@
+// Dark, animated, stylish 404 page
+@import '../../styles/global.scss';
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: rgba(24,26,32,0.95);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(37,117,252,0.08);
+  padding: 3rem 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  animation: fadeInUp 1.2s;
+}
+
+.notfound-title {
+  font-size: 2.2rem;
+  color: #f5f6fa;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.notfound-text {
+  font-size: 1.1rem;
+  color: #bfc8e2;
+  line-height: 1.7;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .notfound {
+    padding: 1.5rem 0.5rem;
+    border-radius: 12px;
+  }
+  .notfound-title {
+    font-size: 1.5rem;
+  }
+  .notfound-text {
+    font-size: 0.95rem;
+  }
+}

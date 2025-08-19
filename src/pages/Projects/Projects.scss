@@ -1,0 +1,94 @@
+// Dark, animated, stylish Projects page
+@import '../../styles/global.scss';
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: rgba(24,26,32,0.95);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(37,117,252,0.08);
+  padding: 3rem 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  animation: fadeInUp 1.2s;
+}
+
+.projects-title {
+  font-size: 2.2rem;
+  color: #f5f6fa;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+// Card grid for projects
+.projects-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: #181a20;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(37,117,252,0.10);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+  color: #bfc8e2;
+  &:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,188,212,0.18);
+  }
+}
+
+.project-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background: #232323;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.project-info {
+  text-align: center;
+}
+
+.project-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #00bcd4;
+  margin-bottom: 0.5rem;
+}
+
+.project-desc {
+  font-size: 1rem;
+  color: #bfc8e2;
+  margin-bottom: 0.5rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.project-item:hover {
+  box-shadow: 0 4px 16px #2575fc44;
+  transform: translateY(-2px) scale(1.02);
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 1.5rem 0.5rem;
+    border-radius: 12px;
+  }
+  .projects-title {
+    font-size: 1.5rem;
+  }
+}

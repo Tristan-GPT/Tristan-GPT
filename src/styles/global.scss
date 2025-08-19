@@ -1,0 +1,61 @@
+// Dark, simple, stylish global styles
+$font-main: 'Inter', 'JetBrains Mono', Arial, sans-serif;
+$bg-dark: #181a20;
+$bg-darker: #131417;
+$text-light: #f5f6fa;
+$accent: #2575fc;
+$accent2: #6a11cb;
+
+html, body {
+	background: $bg-dark;
+	color: $text-light;
+	font-family: $font-main;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	transition: background 0.4s, color 0.4s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $text-light;
+	font-family: $font-main;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+}
+
+a {
+	color: $accent;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+a:hover {
+	color: $accent2;
+}
+
+button {
+	background: linear-gradient(90deg, $accent 0%, $accent2 100%);
+	color: $text-light;
+	border: none;
+	border-radius: 8px;
+	padding: 0.5em 1.2em;
+	font-size: 1rem;
+	font-family: $font-main;
+	font-weight: 600;
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	transition: background 0.3s, transform 0.2s;
+}
+button:hover {
+	background: linear-gradient(90deg, $accent2 0%, $accent 100%);
+	transform: scale(1.05);
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+}
+
+@media (max-width: 768px) {
+	.container { padding: 1rem 0.5rem; }
+}
