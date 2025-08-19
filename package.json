@@ -41,5 +41,6 @@
     "sass": "^1.90.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.5"
-  }
+  },
+  "packageManager": "pnpm@10.14.0"
 }
