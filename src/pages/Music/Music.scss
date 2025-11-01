@@ -1,0 +1,44 @@
+.music {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+}
+.music-header { text-align:center; margin-bottom:1.4rem }
+.music-title { font-size:2.4rem; margin-bottom:0.6rem }
+.music-desc { color:var(--muted); margin-bottom:1rem }
+.tracks {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.6rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Slightly larger, more visible scrollbar for the horizontal tracks row */
+.tracks::-webkit-scrollbar { height: 12px; }
+.tracks::-webkit-scrollbar-track { background: rgba(255,255,255,0.02); border-radius:999px; }
+.tracks::-webkit-scrollbar-thumb { background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius:999px; border: 3px solid rgba(0,0,0,0.12); }
+.tracks { scrollbar-width: thin; scrollbar-color: rgba(124,92,255,0.9) rgba(255,255,255,0.02); }
+
+.track {
+  flex: 0 0 280px; /* fixed card width so items appear horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.track-cover {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  background: linear-gradient(90deg, rgba(0,0,0,0.08), rgba(0,0,0,0.03));
+}
+.track-info h3 { margin:0 0 0.25rem 0 }
+.track-actions .btn.small { padding:0.4rem 0.8rem }
+
+/* On very small screens, keep horizontal scroll but slightly smaller cards */
+@media (max-width:480px){
+  .track { flex: 0 0 220px }
+}

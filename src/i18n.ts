@@ -7,7 +7,9 @@ const resources = {
       navbar: {
         home: 'Home',
         about: 'About',
+        music: 'Music',
         projects: 'Projects',
+        menu: 'Menu',
         youtube: 'YouTube',
         github: 'GitHub',
         instagram: 'Instagram',
@@ -16,54 +18,69 @@ const resources = {
         lang_fr: 'French',
         lang_select: 'Language',
       },
-      intro: {
-        text: "I'm <span class='highlight'>Tristan-GPT</span><br/> & I'm a developer",
-        text_fr: "Je suis <span class='highlight'>Tristan-GPT</span><br/> & je suis un développeur"
+      hero: {
+        title: "I'm Tristan Jacob & I'm a developer",
+        subtitle: 'I design and code websites, Discord bots and APIs with React, TypeScript and build useful tools.',
+        cta_projects: 'View projects',
+        cta_about: 'About',
+      },
+      home: {
+        presence_title: 'Presence',
+        projects_title: 'Recent projects',
+        networks_title: 'Networks',
       },
       about: {
         title: 'About',
-        text: "I started to code in 2020 by learning Javascript. I was coding Discord bots & I created many projects. As time went on, I learned other programming languages such as Python, HTML/CSS and the latest, Typescript. I know many frameworks like Discord.js, Express, React, Vite, etc. Today, my main tools are PNPM to replace NPM, React for all my websites, Discord.js with Typescript for all my bots, Express for my APIs and MySQL and MongoDB for Databases. My IDEs are Visual Studio Code, IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider, RustRover, Arduino IDE & rarely Visual Studio."
+        text:
+          "I started coding in 2020 by learning JavaScript. I built Discord bots and many other projects. Over time I learned Python, HTML/CSS and TypeScript. I use frameworks like Discord.js, Express, React and Vite. My main tools today are pnpm, React, Discord.js with TypeScript, Express, MySQL and MongoDB. I use Visual Studio Code and JetBrains IDEs.",
       },
       projects: {
         title: 'Projects',
         text: 'Here are some of my favorite projects.',
-        miralys: {
-          name: 'Miralys',
-          desc: 'Tech Organization: Ayden discord bot, Kairo, Miralys Tournament, Discordian & Kolba',
-        },
-        ayden: {
-          name: 'Ayden',
-          desc: 'A Discord bot to replace all others discord bots in one',
-        },
-        kairo: {
-          name: 'Kairo',
-          desc: 'A powerful AI',
-        },
-        tournament: {
-          name: 'Miralys Tournament',
-          desc: 'E-sport/Sport Tournament Manager',
-        },
-        kolba: {
-          name: 'Kolba',
-          desc: 'A programming language which allow you to compile Cobol into recent languages',
-        },
-        discordian: {
-          name: 'Discordian',
-          desc: 'A powerful framework based on Discord.js to simplify Discord.js and make it with better performances',
-        },
+        miralys: { name: 'Miralys', desc: 'Tech organisation: bots, tools and platforms.' },
+        lexkess: { name: 'LEXKESS', desc: 'Artistic & musical projects: releases, production and branding.' },
+        portfolio: { name: 'Portfolio (new)', desc: 'Portfolio redesign — animations and modern UI.' },
+        ayden: { name: 'Ayden', desc: 'A Discord bot combining many features.' },
+        kairo: { name: 'Kairo', desc: 'A powerful AI.' },
+        tournament: { name: 'Miralys Tournament', desc: 'E-sport/Sport tournament manager.' },
+        kolba: { name: 'Kolba', desc: 'A programming language to compile COBOL to modern languages.' },
+        discordian: { name: 'Discordian', desc: 'A framework built on Discord.js.' },
       },
-      notfound: {
-        title: 'Page Not Found',
-        text: 'Sorry, the page you are looking for does not exist.'
-      }
-    }
+      
+      tech: {
+        react: 'React',
+        typescript: 'TypeScript',
+        monorepo: 'Monorepo',
+        dev: 'Dev',
+        ceo: 'CEO',
+        music: 'Music',
+        artist: 'Artist',
+        production: 'Production',
+        framer_motion: 'Framer Motion',
+      },
+      music: {
+        title: 'Music',
+        description: 'A showcase of musical projects and releases.',
+        listen: 'Listen',
+        tracks: [
+          { name: 'PROJ3KT', desc: "A collection of old productions created at the beginning of my adventure in electronic music.", url: 'https://open.spotify.com/intl-fr/artist/4tPQ4WRIozeNceVL03wdJU?si=iwDg3blmR1qfaqtfGewzWg', image: '/music-cover-1.png' },
+          { name: 'Soon...', desc: "Soon...", url: 'https://open.spotify.com/intl-fr/artist/4tPQ4WRIozeNceVL03wdJU?si=iwDg3blmR1qfaqtfGewzWg', image: '/music-cover-1.png' },
+          { name: 'SH∆TTR† Collective', desc: "My music collective created very recently.", url: 'https://open.spotify.com/intl-fr/artist/4tPQ4WRIozeNceVL03wdJU?si=iwDg3blmR1qfaqtfGewzWg', image: '/music-cover-1.png' },
+          { name: 'Venom', desc: "Cover of the song Venom by The Hyb-D Project, one of my cover projects.", url: 'https://youtu.be/B-B3Hlhey8s?si=N_GG3DDF8NgdAMO4', image: '/music-cover-2.png' },
+        ],
+      },
+      footer: { about: 'About', projects: 'Projects', contact: 'Contact' },
+      notfound: { title: 'Page Not Found', text: 'Sorry, the page you are looking for does not exist.' },
+    },
   },
   fr: {
     translation: {
       navbar: {
         home: 'Accueil',
         about: 'À propos',
+        music: 'Musique',
         projects: 'Projets',
+        menu: 'Menu',
         youtube: 'YouTube',
         github: 'GitHub',
         instagram: 'Instagram',
@@ -72,58 +89,69 @@ const resources = {
         lang_fr: 'Français',
         lang_select: 'Langue',
       },
-      intro: {
-        text: "Je suis <span class='highlight'>Tristan-GPT</span><br/> & je suis un développeur"
+      tech: {
+        react: 'React',
+        typescript: 'TypeScript',
+        monorepo: 'Monorepo',
+        dev: 'Dev',
+        ceo: 'CEO',
+        music: 'Musique',
+        artist: 'Artiste',
+        production: 'Production',
+        framer_motion: 'Framer Motion',
+      },
+      hero: {
+        title: "Je suis Tristan Jacob & je suis un développeur",
+        subtitle:
+          "Je conçois et développe des sites web, des bots Discord et des APIs avec React, TypeScript et je crée des outils utiles.",
+        cta_projects: 'Voir mes projets',
+        cta_about: 'À propos',
+      },
+      home: {
+        presence_title: 'Présence',
+        projects_title: 'Projets récents',
+        networks_title: 'Réseaux',
       },
       about: {
         title: 'À propos',
-        text: "J'ai commencé à coder en 2020 en apprenant Javascript. Je créais des bots Discord et de nombreux projets. Au fil du temps, j'ai appris d'autres langages comme Python, HTML/CSS et le dernier, Typescript. Je connais de nombreux frameworks comme Discord.js, Express, React, Vite, etc. Aujourd'hui, mes principaux outils sont PNPM pour remplacer NPM, React pour tous mes sites web, Discord.js avec Typescript pour tous mes bots, Express pour mes APIs et MySQL et MongoDB pour les bases de données. Mes IDEs sont Visual Studio Code, IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider, RustRover, Arduino IDE & rarement Visual Studio."
+        text:
+          "J'ai commencé à coder en 2020 en apprenant JavaScript. J'ai créé des bots Discord et d'autres projets. Avec le temps j'ai appris Python, HTML/CSS et TypeScript. J'utilise Discord.js, Express, React et Vite. Mes outils principaux sont pnpm, React, Discord.js avec TypeScript, Express, MySQL et MongoDB.",
       },
       projects: {
         title: 'Projets',
         text: 'Voici quelques-uns de mes projets préférés.',
-        miralys: {
-          name: 'Miralys',
-          desc: 'Organisation technologique: Ayden discord bot, Kairo, Miralys Tournament, Discordian & Kolba',
-        },
-        ayden: {
-          name: 'Ayden',
-          desc: 'Un bot Discord pour remplacer tous les autres bots en un seul',
-        },
-        kairo: {
-          name: 'Kairo',
-          desc: 'Une IA puissante',
-        },
-        tournament: {
-          name: 'Miralys Tournament',
-          desc: 'Gestionnaire de tournois E-sport/Sport',
-        },
-        kolba: {
-          name: 'Kolba',
-          desc: 'Un langage de programmation permettant de compiler du Cobol vers des langages récents',
-        },
-        discordian: {
-          name: 'Discordian',
-          desc: 'Un framework puissant basé sur Discord.js pour simplifier Discord.js et l\'améliorer les performances',
-        },
+        miralys: { name: 'Miralys', desc: "Organisation tech : bots, outils et plateformes." },
+        lexkess: { name: 'LEXKESS', desc: "Projets artistiques et musicaux : sorties, production et branding." },
+        portfolio: { name: 'Portfolio (nouveau)', desc: "Refonte du portfolio — animations et design moderne." },
+        ayden: { name: 'Ayden', desc: "Un bot Discord combinant plusieurs fonctionnalités." },
+        kairo: { name: 'Kairo', desc: "Une IA puissante." },
+        tournament: { name: 'Miralys Tournament', desc: "Gestionnaire de tournois E-sport/Sport." },
+        kolba: { name: 'Kolba', desc: "Un langage pour compiler du COBOL vers des langages modernes." },
+        discordian: { name: 'Discordian', desc: "Un framework basé sur Discord.js." },
       },
+      music: {
+        title: 'Music',
+        description: 'Une vitrine de projets et sorties musicales.',
+        listen: 'Écouter',
+        tracks: [
+          { name: 'PROJ3KT', desc: "Ensemble de vieilles productions créé au début de mon aventure en musique électronique.", url: 'https://open.spotify.com/intl-fr/artist/4tPQ4WRIozeNceVL03wdJU?si=iwDg3blmR1qfaqtfGewzWg', image: '/music-cover-1.png' },
+          { name: 'Soon...', desc: "Soon...", url: 'https://open.spotify.com/intl-fr/artist/4tPQ4WRIozeNceVL03wdJU?si=iwDg3blmR1qfaqtfGewzWg', image: '/music-cover-1.png' },
+          { name: 'SH∆TTR† Collective', desc: "Mon collectif musical créé très récemment.", url: 'https://open.spotify.com/intl-fr/artist/4tPQ4WRIozeNceVL03wdJU?si=iwDg3blmR1qfaqtfGewzWg', image: '/music-cover-1.png' },
+          { name: 'Venom', desc: "Cover de la chanson Venom de The Hyb-D Project, l'un de mes projets covers.", url: 'https://youtu.be/B-B3Hlhey8s?si=N_GG3DDF8NgdAMO4', image: '/music-cover-2.png' },
+        ]
       },
-      notfound: {
-        title: 'Page non trouvée',
-        text: 'Désolé, la page que vous recherchez n\'existe pas.'
-      }
-    }
+      common: { view: 'Voir', code: 'Code' },
+      footer: { about: 'À propos', projects: 'Projets', contact: 'Contact' },
+      notfound: { title: 'Page non trouvée', text: "Désolé, la page que vous recherchez n'existe pas." },
+    },
+  },
 };
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources,
-    lng: 'en',
-    fallbackLng: 'en',
-    interpolation: {
-      escapeValue: false,
-    },
-  });
+i18n.use(initReactI18next).init({
+  resources,
+  lng: 'fr',
+  fallbackLng: 'en',
+  interpolation: { escapeValue: false },
+});
 
 export default i18n;

@@ -1,0 +1,44 @@
+@import '../../styles/global.scss';
+
+.project-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  transition: transform 0.18s;
+
+  .project-cover {
+    /* make the cover span full width and keep a pleasant aspect ratio
+       image will cover the area and have rounded top corners to match the card */
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      /* round top corners so the image matches the card's rounding */
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+    }
+  }
+
+  .project-body { padding: 1rem; display:flex; flex-direction:column; gap:0.6rem; flex:1; }
+  .project-title { font-size:1.1rem; margin:0; }
+  .project-desc { color: rgba(245,246,250,0.7); font-size:0.95rem; margin:0; }
+  .project-tech { display:flex; gap:0.4rem; flex-wrap:wrap; margin-top:auto; }
+  .tech-pill { background: rgba(255,255,255,0.03); color: #dfe8ff; padding:0.18rem 0.5rem; border-radius:999px; font-size:0.75rem; }
+  .project-actions { display:flex; gap:0.6rem; margin-top:0.6rem; }
+  .btn.small { padding:0.36rem 0.7rem; border-radius:8px; font-size:0.85rem; }
+  .btn.ghost { background: transparent; border:1px solid rgba(255,255,255,0.06); }
+}
+
+@media (max-width: 700px) {
+  .project-card { min-height: 180px; }
+  .project-cover { aspect-ratio: 3 / 2; }
+}

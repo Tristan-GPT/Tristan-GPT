@@ -1,61 +1,73 @@
-// Dark, simple, stylish global styles
-$font-main: 'Inter', 'JetBrains Mono', Arial, sans-serif;
-$bg-dark: #181a20;
-$bg-darker: #131417;
-$text-light: #f5f6fa;
-$accent: #2575fc;
-$accent2: #6a11cb;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
+:root{
+  --bg-1: #0b1220;
+  --bg-2: #0b1220;
+  --card: #0f1726;
+  --muted: rgba(255,255,255,0.72);
+  --glass: rgba(255,255,255,0.04);
+  --accent: #7c5cff;
+  --accent-2: #00d4ff;
+  --radius-lg: 16px;
+}
+
+*{box-sizing:border-box}
+html,body{
+  height:100%;
+  margin:0;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  /* Use a single radial accent background (with a solid fallback color) — no linear gradient */
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(124,92,255,0.04), transparent), var(--bg-2);
+	padding-bottom: 1600px;
+  /* Keep the same radial-only background on large screens */
+  @media (max-width: 900px) {
+    padding-bottom: 1700px;
+  }
+  color: #e9eef8;
+}
+
+h1,h2,h3,h4{margin:0;font-weight:800;color: #fff}
+a{color:var(--accent);text-decoration:none}
+
+button{font-family:inherit}
+
+.container{max-width:1100px;margin:0 auto;padding:2rem}
+
+/* utility */
+.row{display:flex;gap:1rem;flex-wrap:wrap}
+.center{display:flex;align-items:center;justify-content:center}
+.muted{color:var(--muted)}
+
+/* card */
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));border-radius:var(--radius-lg);padding:1.2rem;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+
+@media (max-width:768px){.container{padding:1rem}}
+
+/* small helpers */
+.images { width:auto; height:32px; object-fit:contain; display:inline-block }
+.sr-only{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+
+/* Custom scrollbar styles (WebKit + Firefox) */
 html, body {
-	background: $bg-dark;
-	color: $text-light;
-	font-family: $font-main;
-	margin: 0;
-	padding: 0;
-	min-height: 100vh;
-	transition: background 0.4s, color 0.4s;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(124,92,255,0.9) rgba(0,0,0,0.12);
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: $text-light;
-	font-family: $font-main;
-	font-weight: 700;
-	margin-bottom: 0.5em;
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.02);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+  border-radius: 999px;
+  border: 3px solid rgba(0,0,0,0.12); /* creates padding so the thumb doesn't touch edges */
+}
+::-webkit-scrollbar-thumb:hover {
+  filter: brightness(0.95);
 }
 
-a {
-	color: $accent;
-	text-decoration: none;
-	transition: color 0.2s;
-}
-a:hover {
-	color: $accent2;
-}
-
-button {
-	background: linear-gradient(90deg, $accent 0%, $accent2 100%);
-	color: $text-light;
-	border: none;
-	border-radius: 8px;
-	padding: 0.5em 1.2em;
-	font-size: 1rem;
-	font-family: $font-main;
-	font-weight: 600;
-	cursor: pointer;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-	transition: background 0.3s, transform 0.2s;
-}
-button:hover {
-	background: linear-gradient(90deg, $accent2 0%, $accent 100%);
-	transform: scale(1.05);
-}
-
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 2rem 1rem;
-}
-
-@media (max-width: 768px) {
-	.container { padding: 1rem 0.5rem; }
-}

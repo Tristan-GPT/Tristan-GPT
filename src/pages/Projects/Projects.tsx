@@ -40,9 +40,9 @@ function Projects() {
   const { t } = useTranslation();
   return <>
     <Navbar />
-    <div className='container projects-container'>
-      <h1 className='title'>{t('projects.title')}</h1>
-      <p>{t('projects.text')}</p>
+    <div className='projects container'>
+      <h1 className='projects-title'>{t('projects.title')}</h1>
+      <p className='projects-text'>{t('projects.text')}</p>
       <div className='projects-list'>
         {projects.map((project, idx) => (
           <div className='project-card' key={idx}>
