@@ -1,14 +1,26 @@
-<h1 align="center">👑 Tristan‑GPT</h1>
-<div align="center">
-  <p>
-    <a href="https://tristangpt.miralys.xyz/"><img src="https://img.shields.io/badge/Website-tristangpt.miralys.xyz-blue?style=for-the-badge&logo=google-chrome" alt="Website"/></a>
-    <a href="https://discord.gg/"><img src="https://img.shields.io/discord/1406061362156798104?color=5865F2&label=Discord&logo=discord&logoColor=white&style=for-the-badge" alt="Discord"/></a>
-    <a href="https://www.instagram.com/tristanjcb/"><img src="https://img.shields.io/badge/Instagram-@tristanjcb-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-    <a href="https://www.threads.com/@tristanjcb"><img src="https://img.shields.io/badge/Threads-@tristanjcb-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads"/></a>
-    <a href="https://x.com/TristanGpt_"><img src="https://img.shields.io/badge/X-@TristanGpt_-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/></a>
-    <img src="https://img.shields.io/badge/Me-Passionate%20Dev-orange?style=for-the-badge" alt="Team"/>
-  </p>
-</div>
+<h1 align="center">👋 Hi, I'm Tristan</h1>
+
+<p align="center">
+  <b>Self-taught Full-Stack Developer • Discord Bot Developer • Web Enthusiast</b>
+</p>
+
+<p align="center">
+  <a href="https://tristangpt.miralys.xyz">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit-blue?style=for-the-badge">
+  </a>
+  <a href="https://discord.gg/">
+    <img src="https://img.shields.io/discord/1520864842825728109?style=for-the-badge&logo=discord&logoColor=white">
+  </a>
+  <a href="https://www.instagram.com/tristanjcb/">
+    <img src="https://img.shields.io/badge/Instagram-@tristanjcb-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+  <a href="https://www.threads.com/@tristanjcb">
+    <img src="https://img.shields.io/badge/Threads-@tristanjcb-000000?style=for-the-badge&logo=threads&logoColor=white">
+  </a>
+  <a href="https://x.com/TristanJ_Pro">
+    <img src="https://img.shields.io/badge/X-@TristanJ_Pro-000000?style=for-the-badge&logo=x&logoColor=white">
+  </a>
+</p>
 
 <p align="center">
   <img src="./.github/powered-by-vercel.svg" alt="Powered by Vercel">
@@ -16,95 +28,80 @@
 
 ---
 
-## Hello — I’m Tristan
+# 👨‍💻 About Me
 
-Full‑stack web developer from France with 5 years of professional experience building fast, accessible and delightful web experiences. I work primarily with TypeScript, React and Vite, and I love mixing creative work (music, videos) with engineering.
+I'm a **self-taught Full-Stack developer** who started programming in **2020** on my father's computer.
 
-- Languages & tools: JavaScript, TypeScript, HTML/CSS, SCSS, Python, React, a bit of Rust
-- Currently exploring: Kotlin, Rust & C# (projects under Miralys — https://miralys.xyz)
-- Frameworks & infra: React, Vite, TurboRepo, Vercel, Express, Discord.js
-- Package manager: PNPM (preferred over npm)
+Since then, I've been continuously learning and building projects, mainly focused on:
 
-When I’m not coding, I play guitar & bass and produce Scenecore / Metal/Rock music — big fan of Dragonforce & Metallica but also 6arelyhuman, asteria & Vyzer. 🎸
+- 🤖 Discord bots
+- 🌐 Modern web applications
+- ⚡ JavaScript & TypeScript ecosystems
+- 🛠 Backend development
 
----
-
-## What this repo contains
-
-This repository is the source of my personal portfolio website (the place where I showcase projects, blog posts and media). It’s a lightweight Vite + React app, optimized for fast load times and easy deployment on Vercel.
-
-Key highlights:
-
-- Clean React + TypeScript codebase
-- SCSS for styles and variables
-- Internationalization support
-- Fast, Vite-powered dev experience
+I enjoy creating tools that are both useful and enjoyable to build. While I sometimes code projects for fun, my long-term goal is to turn software development into my full-time career.
 
 ---
 
-## Live demo
+# 🚀 Currently Working On
 
-Visit the live site: https://tristangpt.miralys.xyz/
+- Improving my Full-Stack development skills
+- Building modern Discord applications
+- Learning more about backend architecture
+- Exploring new technologies and best practices
 
 ---
 
-## Tech & Tools
+# 🧰 Tech Stack
 
-I like a compact, modern stack focused on DX and performance:
+### Languages
 
-- Vite + React + TypeScript
-- SCSS (modular architecture)
-- PNPM for fast installs
-- Vercel for hosting
+<p align="center">
+<img src="https://skillicons.dev/icons?i=js,ts,py,html,css,bash&perline=6">
+</p>
 
-### Stats
+### Frameworks & Tools
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,nodejs,vite,discordjs,mongodb,mysql,git,github,npm,pnpm,yarn,vercel,nginx,vscode,webstorm,pycharm,linux,windows,powershell,notion&perline=10">
+</p>
+
+### Currently Learning
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,kotlin,arduino&perline=5">
+</p>
+
+---
+
+# 📊 GitHub Stats
+
 <p align="center">
   <a href="https://github.com/Tristan-GPT">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tristan-GPT&theme=radical&border=7F3FBF&background=0D1117" alt="GitHub Streak">
+    <img src="https://github-stats-extended.vercel.app/api?username=Tristan-GPT&include_all_commits=true&theme=radical" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Tristan-GPT&layout=compact&langs_count=6&theme=radical" />
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Tristan-GPT">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tristan-GPT&theme=radical" alt="GitHub Profile Summary">
-  </a>
-</p>
+---
+
+# 📫 Contact
+
+- 🌐 Portfolio → https://tristangpt.miralys.xyz
+- 💬 Discord → **@juste_tristan**
+- 📧 Email → **tristangpt.pro@gmail.com**
+- 📷 Instagram → **@tristanjcb**
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tristan-GPT&show_icons=true&theme=radical" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tristan-GPT&theme=radical" alt="Top Languages">
+  <img
+    width="50%"
+    src="https://lanyard.cnrad.dev/api/705425854825496656?bg=1f1f1f&borderRadius=5px"
+    alt="Discord Status">
 </p>
 
 ---
 
-## Skills
-
-### Programming & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,html,css,react,bash,git,github,nodejs,nextjs,vscode,vite,linux,windows,vercel,pycharm,mongodb,notion,npm,pnpm,yarn,mysql,sass,powershell,webstorm,nginx,discordjs,sketchup,bash&perline=10" alt="Skills">
+  ⭐ Thanks for visiting my profile! Feel free to check out my repositories or reach out if you'd like to collaborate.
 </p>
-
-### Learning & Goals
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,angular,arduino,blender,bootstrap,c,cpp,cs,flutter,java,kotlin,unity,unreal,webpack&perline=7" alt="Goals">
-</p>
-
----
-
-## Contact & social
-
-- Discord: [@juste_tristan](https://discord.com/users/705425854825496656)
-- Instagram: [@tristanjcb](https://www.instagram.com/tristanjcb)
-- Email: [tristangpt@miralys.xyz](mailto:tristangpt@miralys.xyz)
-- Portfolio: https://tristangpt.miralys.xyz
-
-If you'd like to collaborate or just chat about code, music or videos — ping me!
-
-<p align="center">
-  <img width="50%" align="center" alt="Discord Status" src="https://lanyard.cnrad.dev/api/705425854825496656?bg=1f1f1f&borderRadius=5px">
-</p>
-
----
-
-Thanks for stopping by — enjoy the code and the music! 🎶
 
