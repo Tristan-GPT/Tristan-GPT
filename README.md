@@ -78,6 +78,12 @@ I enjoy creating tools that are both useful and enjoyable to build. While I some
 
 <p align="center">
   <a href="https://github.com/Tristan-GPT">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tristan-GPT&theme=radical&border=7F3FBF&background=0D1117" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Tristan-GPT">
     <img src="https://github-stats-extended.vercel.app/api?username=Tristan-GPT&include_all_commits=true&theme=radical" />
     <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Tristan-GPT&layout=compact&langs_count=6&theme=radical" />
   </a>
