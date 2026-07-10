@@ -11,6 +11,20 @@ body,
   overflow-x: hidden;
 }
 
+html,
+body {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
 body,
 #root {
   min-height: 100vh;
@@ -192,6 +206,7 @@ h1 {
   transform: scale(1.1);
 }
 
+/* Ajustements mobile */
 @media (max-width: 480px) {
   .container {
     padding: 2rem 1.25rem;
