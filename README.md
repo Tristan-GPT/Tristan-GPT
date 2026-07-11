@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://tristangpt.miralys.xyz">
+  <a href="https://tristangpt.tech">
     <img src="https://img.shields.io/badge/🌐_Portfolio-Visit-blue?style=for-the-badge">
   </a>
   <a href="https://discord.gg/">
@@ -93,7 +93,7 @@ I enjoy creating tools that are both useful and enjoyable to build. While I some
 
 # 📫 Contact
 
-- 🌐 Portfolio → https://tristangpt.miralys.xyz
+- 🌐 Portfolio → https://tristangpt.tech
 - 💬 Discord → **@juste_tristan**
 - 📧 Email → **tristangpt.pro@gmail.com**
 - 📷 Instagram → **@tristanjcb**
