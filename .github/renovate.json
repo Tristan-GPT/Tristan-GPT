@@ -1,0 +1,77 @@
+{
+
+  "extends": [
+    "config:recommended"
+  ],
+
+  "dependencyDashboard": true,
+  "dependencyDashboardApproval": true,
+
+  "enabledManagers": [
+    "npm",
+    "github-actions"
+  ],
+
+  "timezone": "Europe/Paris",
+
+  "prHourlyLimit": 2,
+  "prConcurrentLimit": 10,
+
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
+
+  "semanticCommits": "enabled",
+  "semanticCommitScope": "deps",
+
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "groupName": "PNPM Workspace",
+      "schedule": [
+        "before 4am every weekday"
+      ],
+      "minimumReleaseAge": "1 day",
+      "automerge": false
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions",
+      "schedule": [
+        "before 5am every weekday"
+      ],
+      "minimumReleaseAge": "1 day",
+      "automerge": false
+    },
+    {
+      "groupName": "TypeScript",
+      "matchPackageNames": [
+        "/^typescript$/",
+        "/^@types\\//"
+      ]
+    },
+    {
+      "groupName": "Linting",
+      "matchPackageNames": [
+        "/^eslint/",
+        "/^@typescript-eslint/",
+        "/^prettier/",
+        "/^stylelint/"
+      ]
+    },
+    {
+      "groupName": "Testing",
+      "matchPackageNames": [
+        "/^vitest/",
+        "/^@vitest/",
+        "/^@testing-library/"
+      ]
+    }
+  ],
+
+  "postUpdateOptions": [
+    "pnpmDedupe",
+    "rebaseStalePrs"
+  ]
+}
