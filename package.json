@@ -19,7 +19,9 @@
     "lint-staged": "^17.0.8",
     "prettier": "^3.9.5",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.0",
