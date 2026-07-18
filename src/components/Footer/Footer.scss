@@ -1,0 +1,142 @@
+.footer {
+    margin-top: 10rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+    &__container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 5rem 2rem 2rem;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        gap: 7rem;
+    }
+
+    &__brand {
+        flex: 1;
+
+        h2 {
+            margin: 0.8rem 0 1.5rem;
+            font-size: clamp(2rem, 5vw, 3.4rem);
+            line-height: 1.1;
+            font-weight: 700;
+            color: #fff;
+            max-width: 650px;
+        }
+
+        p {
+            max-width: 560px;
+            color: rgba(255, 255, 255, 0.65);
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    &__label {
+        color: #6b8cff;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    &__button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.7rem;
+        color: white;
+        text-decoration: none;
+        padding: 14px 22px;
+
+        border-radius: 999px;
+
+        border: 1px solid rgba(255, 255, 255, 0.12);
+
+        transition: 0.3s;
+
+        &:hover {
+            background: white;
+            color: #111;
+            transform: translateY(-3px);
+        }
+    }
+
+    &__links {
+        display: flex;
+        gap: 6rem;
+
+        h4 {
+            color: white;
+            margin-bottom: 1.4rem;
+            font-size: 0.95rem;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+            text-decoration: none;
+            margin-bottom: 0.9rem;
+
+            color: rgba(255, 255, 255, 0.6);
+
+            transition: 0.25s;
+
+            &:hover {
+                color: #fff;
+                transform: translateX(4px);
+            }
+        }
+    }
+
+    &__bottom {
+        margin-top: 5rem;
+        padding-top: 2rem;
+
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+        display: flex;
+        justify-content: space-between;
+
+        color: rgba(255, 255, 255, 0.45);
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 900px) {
+        &__top {
+            flex-direction: column;
+            gap: 4rem;
+        }
+
+        &__links {
+            justify-content: space-between;
+            gap: 3rem;
+        }
+
+        &__bottom {
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+
+    @media (max-width: 640px) {
+        &__links {
+            flex-direction: column;
+        }
+
+        &__container {
+            padding-inline: 1.25rem;
+        }
+
+        &__brand h2 {
+            font-size: 2.3rem;
+        }
+    }
+}

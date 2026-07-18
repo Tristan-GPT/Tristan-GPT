@@ -1,7 +1,7 @@
 .container {
     width: min(900px, 90%);
     max-width: 100%;
-    padding: 3rem;
+    padding: 5rem;
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
@@ -158,13 +158,13 @@ h1 {
                 0 0 20px rgba(99, 102, 241, 0.35),
                 0 8px 20px rgba(0, 0, 0, 0.35);
 
-            img {
+            svg {
                 transform: scale(1.1);
             }
         }
     }
 
-    img {
+    svg {
         width: 24px;
         height: 24px;
         max-width: 24px;

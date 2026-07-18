@@ -1,4 +1,6 @@
 import './Card.scss';
+import { FaDiscord, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 export function Card() {
     return (
@@ -17,21 +19,11 @@ export function Card() {
             </p>
 
             <div className="buttons">
-                <a
-                    href="https://github.com/Tristan-GPT"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="button primary"
-                >
+                <a href="/projects" className="button primary">
                     View Projects
                 </a>
 
-                <a
-                    href="https://www.linkedin.com/in/tristanjacob21"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="button secondary"
-                >
+                <a href="/contact" className="button secondary">
                     Contact Me
                 </a>
             </div>
@@ -43,7 +35,7 @@ export function Card() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="/github.png" alt="GitHub" />
+                    <FaGithub />
                 </a>
 
                 <a
@@ -51,7 +43,7 @@ export function Card() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="/discord.png" alt="Discord" />
+                    <FaDiscord />
                 </a>
 
                 <a
@@ -59,7 +51,7 @@ export function Card() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="/instagram.png" alt="Instagram" />
+                    <FaInstagram />
                 </a>
 
                 <a
@@ -67,7 +59,7 @@ export function Card() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="/x.png" alt="X" />
+                    <FaXTwitter />
                 </a>
 
                 <a
@@ -75,7 +67,7 @@ export function Card() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="/linkedin.png" alt="LinkedIn" />
+                    <FaLinkedin />
                 </a>
             </div>
         </main>
