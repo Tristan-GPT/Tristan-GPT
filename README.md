@@ -57,7 +57,7 @@ I enjoy creating tools that are both useful and enjoyable to build. While I some
 ### Languages
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,py,html,css,bash&perline=6">
+<img src="https://skillicons.dev/icons?i=js,ts,py,html,css,scss&perline=6">
 </p>
 
 ### Frameworks & Tools
