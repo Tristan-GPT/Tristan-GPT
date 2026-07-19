@@ -7,6 +7,7 @@ import { Footer } from '../Footer/Footer.tsx';
 import { Contact } from '../../pages/Contact/Contact.tsx';
 import { Projects } from '../../pages/Projects/Projects.tsx';
 import { About } from '../../pages/About/About.tsx';
+import { PageTransition } from '../PageTransition/PageTransition.tsx';
 
 const router = createBrowserRouter([
     {
@@ -42,11 +43,13 @@ const router = createBrowserRouter([
 function App() {
     return (
         <>
-            <Header />
-            <main className="app-content">
-                <RouterProvider router={router}></RouterProvider>
-            </main>
-            <Footer />
+            <PageTransition>
+                <Header />
+                <main className="app-content">
+                    <RouterProvider router={router}></RouterProvider>
+                </main>
+                <Footer />
+            </PageTransition>
         </>
     );
 }
