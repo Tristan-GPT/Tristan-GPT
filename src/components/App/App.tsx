@@ -5,6 +5,7 @@ import { NotFound } from '../../pages/NotFound/NotFound.tsx';
 import { Header } from '../Header/Header.tsx';
 import { Footer } from '../Footer/Footer.tsx';
 import { Contact } from '../../pages/Contact/Contact.tsx';
+import { Projects } from '../../pages/Projects/Projects.tsx';
 
 const router = createBrowserRouter([
     {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     },
     {
         path: '/projects',
-        element: '',
+        element: <Projects />,
     },
     {
         path: '/sponsors',
