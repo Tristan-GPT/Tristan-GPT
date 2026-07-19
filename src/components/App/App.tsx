@@ -6,6 +6,7 @@ import { Header } from '../Header/Header.tsx';
 import { Footer } from '../Footer/Footer.tsx';
 import { Contact } from '../../pages/Contact/Contact.tsx';
 import { Projects } from '../../pages/Projects/Projects.tsx';
+import { About } from '../../pages/About/About.tsx';
 
 const router = createBrowserRouter([
     {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
     },
     {
         path: '/about',
-        element: '',
+        element: <About />,
     },
     {
         path: '/contact',
