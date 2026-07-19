@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tristangpt.tech/sitemap.xml
+Sitemap: https://www.tristangpt.tech/sitemap.xml
