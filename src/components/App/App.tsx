@@ -14,6 +14,26 @@ const router = createBrowserRouter([
         path: '*',
         element: <NotFound />,
     },
+    {
+        path: '/projects',
+        element: '',
+    },
+    {
+        path: '/sponsors',
+        element: '',
+    },
+    {
+        path: '/partners',
+        element: '',
+    },
+    {
+        path: '/about',
+        element: '',
+    },
+    {
+        path: '/contact',
+        element: '',
+    },
 ]);
 
 function App() {

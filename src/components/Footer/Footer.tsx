@@ -27,10 +27,7 @@ export function Footer() {
                             experiences.
                         </p>
 
-                        <a
-                            href="mailto:tristangpt.pro@gmail.com"
-                            className="footer__button"
-                        >
+                        <a href="/contact" className="footer__button">
                             Contact me
                             <ArrowUpRight size={18} />
                         </a>

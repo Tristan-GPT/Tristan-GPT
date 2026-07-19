@@ -28,7 +28,6 @@ export function Card() {
                 </a>
             </div>
 
-            <img src="/banner.png" alt="Banner" className="banner" />
             <div className="socials">
                 <a
                     href="https://github.com/Tristan-GPT"
