@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Header.scss';
 
-import { FaGithub, FaBars, FaTimes } from 'react-icons/fa';
+import { FaGithub, FaBars, FaTimes, FaDiscord } from 'react-icons/fa';
 
 export function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,10 +15,10 @@ export function Header() {
 
                 <div className={`navbar__links ${menuOpen ? 'active' : ''}`}>
                     <a href="/">Home</a>
+                    <a href="/about">About</a>
                     <a href="/projects">Projects</a>
                     <a href="/sponsors">Sponsors</a>
                     <a href="/partners">Partners</a>
-                    <a href="/about">About</a>
                     <a href="/contact">Contact</a>
                 </div>
 
@@ -30,6 +30,15 @@ export function Header() {
                         className="navbar__theme"
                     >
                         <FaGithub />
+                    </a>
+
+                    <a
+                        href="https://discord.com/users/705425854825496656"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="navbar__theme"
+                    >
+                        <FaDiscord />
                     </a>
 
                     <button

@@ -1,5 +1,6 @@
 import './Projects.scss';
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
+import { FaGithub } from 'react-icons/fa';
 
 const projects = [
     {
@@ -89,6 +90,16 @@ export function Projects() {
                     </article>
                 ))}
             </div>
+
+            <a
+                href="https://github.com/Tristan-GPT"
+                target="_blank"
+                rel="noreferrer"
+                className="projects__github"
+            >
+                <FaGithub />
+                <span>See more on GitHub</span>
+            </a>
         </section>
     );
 }
