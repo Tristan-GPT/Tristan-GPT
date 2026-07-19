@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import './Header.scss';
-import { FaGithub } from 'react-icons/fa';
+
+import { FaGithub, FaBars, FaTimes } from 'react-icons/fa';
 
 export function Header() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <header className="header">
             <nav className="navbar">
@@ -9,7 +13,7 @@ export function Header() {
                     Tristan<span className="padname">Jacob</span>
                 </a>
 
-                <div className="navbar__links">
+                <div className={`navbar__links ${menuOpen ? 'active' : ''}`}>
                     <a href="/">Home</a>
                     <a href="/projects">Projects</a>
                     <a href="/sponsors">Sponsors</a>
@@ -18,20 +22,24 @@ export function Header() {
                     <a href="/contact">Contact</a>
                 </div>
 
-                <button
-                    className="navbar__theme"
-                    aria-label="Theme"
-                    rel="noreferrer"
-                >
+                <div className="navbar__actions">
                     <a
-                        href="https://www.github.com/Tristan-GPT"
-                        className="navbar__theme"
+                        href="https://github.com/Tristan-GPT"
                         target="_blank"
                         rel="noreferrer"
+                        className="navbar__theme"
                     >
                         <FaGithub />
                     </a>
-                </button>
+
+                    <button
+                        className="navbar__burger"
+                        onClick={() => setMenuOpen(!menuOpen)}
+                        aria-label="Menu"
+                    >
+                        {menuOpen ? <FaTimes /> : <FaBars />}
+                    </button>
+                </div>
             </nav>
         </header>
     );

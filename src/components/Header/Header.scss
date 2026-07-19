@@ -80,6 +80,9 @@
     }
 
     &__theme {
+        display: grid;
+        place-items: center;
+
         width: 42px;
         height: 42px;
 
@@ -91,14 +94,51 @@
         background: rgba(255, 255, 255, 0.05);
 
         color: white;
+        text-decoration: none;
 
         cursor: pointer;
 
         transition: 0.3s;
 
+        svg {
+            font-size: 1.15rem;
+            flex-shrink: 0;
+        }
+
         &:hover {
             background: rgba(255, 255, 255, 0.1);
             transform: rotate(20deg);
+        }
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    &__burger {
+        display: none;
+
+        width: 42px;
+        height: 42px;
+
+        border: none;
+        border-radius: 50%;
+
+        background: rgba(255, 255, 255, 0.05);
+
+        color: white;
+        cursor: pointer;
+
+        transition: 0.3s;
+
+        svg {
+            font-size: 1rem;
+        }
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.1);
         }
     }
 }
@@ -107,8 +147,47 @@
     .navbar {
         width: calc(100vw - 24px);
 
+        &__burger {
+            display: grid;
+            place-items: center;
+        }
+
         &__links {
-            display: none;
+            position: absolute;
+
+            top: calc(100% + 12px);
+            left: 0;
+            right: 0;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.4rem;
+
+            padding: 1.5rem;
+
+            border-radius: 24px;
+
+            background: rgba(22, 28, 45, 0.95);
+            backdrop-filter: blur(20px);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            opacity: 0;
+            visibility: hidden;
+
+            transform: translateY(-10px);
+
+            transition: 0.3s;
+
+            pointer-events: none;
+
+            &.active {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+                pointer-events: auto;
+            }
         }
     }
 }
