@@ -76,7 +76,7 @@ export function Footer() {
                 <div className="footer__bottom">
                     <span>© {year} Tristan Jacob. All rights reserved.</span>
 
-                    <span>React · TypeScript · Vite · SCSS</span>
+                    <span>Made with ❤️ by myself.</span>
                 </div>
             </div>
         </footer>
