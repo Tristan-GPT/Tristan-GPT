@@ -1,14 +1,14 @@
 <h1 align="center">👋 Hi, I'm Tristan</h1>
 
 <p align="center">
-  <b>Self-taught Full-Stack Developer • Discord Bot Developer • Web Enthusiast</b>
+  <b>Self-taught Full-Stack Developer • Open Source Contributor • Learning DevSecOps</b>
 </p>
 
 <p align="center">
-  <a href="https://tristangpt.tech">
+  <a href="https://www.tristangpt.tech">
     <img src="https://img.shields.io/badge/🌐_Portfolio-Visit-blue?style=for-the-badge">
   </a>
-  <a href="https://discord.gg/">
+  <a href="https://discord.gg/HuQgXvSkjg">
     <img src="https://img.shields.io/discord/1520864842825728109?style=for-the-badge&logo=discord&logoColor=white">
   </a>
   <a href="https://www.instagram.com/tristanjcb/">
@@ -20,6 +20,16 @@
   <a href="https://x.com/TristanJ_Pro">
     <img src="https://img.shields.io/badge/X-@TristanJ_Pro-000000?style=for-the-badge&logo=x&logoColor=white">
   </a>
+  <a href="https://github.com/Tristan-GPT/followers">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Tristan-GPT?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Tristan-GPT/stars">
+  <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/Tristan-GPT?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Tristan-GPT/sponsors">
+  <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/Tristan-GPT?style=for-the-badge">
+  </a>
+
 </p>
 
 <p align="center">
@@ -30,46 +40,67 @@
 
 # 👨‍💻 About Me
 
-I'm a **self-taught Full-Stack developer** who started programming in **2020** on my father's computer.
+I'm a **self-taught Full-Stack developer** who started programming in **2020** on my father's computer. My current goal is to become a DevSecOps Engineer.
 
 Since then, I've been continuously learning and building projects, mainly focused on:
 
 - 🤖 Discord bots
 - 🌐 Modern web applications
 - ⚡ JavaScript & TypeScript ecosystems
-- 🛠 Backend development
+- 🛠️ Backend development
+- 🌐 Containerization, CI/CD and deployment (Docker, Kubernetes, GitHub Actions)
 
-I enjoy creating tools that are both useful and enjoyable to build. While I sometimes code projects for fun, my long-term goal is to turn software development into my full-time career.
+I enjoy creating tools that are both useful and enjoyable to build. While I sometimes code projects for fun, my long-term goal is to build a full-time career in DevSecOps..
 
 ---
 
 # 🚀 Currently Working On
 
-- Improving my Full-Stack development skills
-- Building modern Discord applications
-- Learning more about backend architecture
-- Exploring new technologies and best practices
+- Building open-source Full-Stack applications
+- Learning Linux, Docker and Kubernetes
+- Exploring DevSecOps practices and infrastructure automation
+- Improving backend architecture and software design
 
 ---
 
 # 🧰 Tech Stack
 
-### Languages
+## Languages
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,py,html,css,scss&perline=6">
+<img src="https://skillicons.dev/icons?i=ts,js,html,css,scss,py&perline=6">
 </p>
 
-### Frameworks & Tools
+## Frameworks & Tools
+
+### 🛠️ Frameworks
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,nodejs,vite,discordjs,mongodb,mysql,git,github,npm,pnpm,yarn,vercel,nginx,vscode,webstorm,pycharm,linux,windows,powershell,notion&perline=10">
+<img src="https://skillicons.dev/icons?i=react,nodejs,vite,discordjs&perline=10">
 </p>
 
-### Currently Learning
+### 📂 Databases
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,cs,kotlin,arduino&perline=5">
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,prisma&perline=10">
+</p>
+
+### 🔧 Tools
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=git,github,npm,pnpm,vercel&perline=10">
+</p>
+
+### 💻 IDE & OS
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=vscode,idea,windows,notion&perline=10">
+</p>
+
+## ✏️ Currently Learning
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,bash,ansible,terraform,githubactions,azure,prometheus,grafana,cloudflare,firebase,supabase,jest,nginx,powershell,postgresql,tensorflow,raspberrypi,redis,workers,&perline=7">
 </p>
 
 ---
@@ -93,9 +124,9 @@ I enjoy creating tools that are both useful and enjoyable to build. While I some
 
 # 📫 Contact
 
-- 🌐 Portfolio → https://tristangpt.tech
+- 🌐 Portfolio → <https://tristangpt.tech>
 - 💬 Discord → **@juste_tristan**
-- 📧 Email → **tristangpt.pro@gmail.com**
+- 📧 Email → **[tristangpt.pro@gmail.com](mailto:tristangpt.pro@gmail.com)**
 - 📷 Instagram → **@tristanjcb**
 
 <p align="center">
@@ -108,6 +139,5 @@ I enjoy creating tools that are both useful and enjoyable to build. While I some
 ---
 
 <p align="center">
-  ⭐ Thanks for visiting my profile! Feel free to check out my repositories or reach out if you'd like to collaborate.
+  ⭐ Thanks for visiting my profile! Feel free to explore my repositories, check out my projects, or reach out if you'd like to collaborate.
 </p>
-
