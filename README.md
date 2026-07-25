@@ -48,9 +48,9 @@ Since then, I've been continuously learning and building projects, mainly focuse
 - 🌐 Modern web applications
 - ⚡ JavaScript & TypeScript ecosystems
 - 🛠️ Backend development
-- 🌐 Containerization, CI/CD and deployment (Docker, Kubernetes, GitHub Actions)
+- 🚢 Containerization, CI/CD and deployment (Docker, Kubernetes, GitHub Actions)
 
-I enjoy creating tools that are both useful and enjoyable to build. While I sometimes code projects for fun, my long-term goal is to build a full-time career in DevSecOps..
+I enjoy creating tools that are both useful and enjoyable to build. While I sometimes code projects for fun. My current goal is to build a career as a DevSecOps Engineer.
 
 ---
 
