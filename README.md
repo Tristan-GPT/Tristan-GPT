@@ -139,5 +139,5 @@ I enjoy creating tools that are both useful and enjoyable to build. While I some
 ---
 
 <p align="center">
-  ⭐ Thanks for visiting my profile! Feel free to explore my repositories, check out my projects, or reach out if you'd like to collaborate. ❤️
+  ⭐ Thanks for visiting my profile! Feel free to explore my repositories, check out my projects, or reach out if you'd like to collaborate. <3
 </p>
