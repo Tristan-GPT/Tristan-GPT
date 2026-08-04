@@ -124,7 +124,7 @@ I enjoy creating tools that are both useful and enjoyable to build. While I some
 
 # 📫 Contact
 
-- 🌐 Portfolio → <https://tristangpt.tech>
+- 🌐 Portfolio → <https://www.tristangpt.tech>
 - 💬 Discord → **@juste_tristan**
 - 📧 Email → **[tristangpt.pro@gmail.com](mailto:tristangpt.pro@gmail.com)**
 - 📷 Instagram → **@tristanjcb**
